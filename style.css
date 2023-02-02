@@ -6,8 +6,13 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
-a,
+/* mes modification */
+.padding_bot{
+    padding-bottom: 20px;
+}
+.label_text{
+    font-weight: 700;
+}
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
@@ -91,7 +96,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    /* background: url("img/texture-paper.png"); */
     background-size: 280px 280px;
 }
 
@@ -507,6 +512,10 @@ button {
 
 .form-control {
     border-color: rgba(0, 0, 0, .1);
+    width: 90%;
+    padding: 3px 0;
+    max-width: 390px;
+    border-width: 2px;
     box-shadow: none;
 }
 
@@ -677,11 +686,11 @@ a {
 }
 
 p {
-    font-size: 11px;
-}
+    font-size: 16px;
+} 
 
 .tight-width-whitespace {
-    max-width: 600px;
+    /* max-width: 600px; */
     margin: auto auto auto auto;
 }
 
@@ -809,13 +818,13 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
+/* .bg-dots-bg {
     background-image: url("img/dots-bg.png");
-}
+} */
 
-.bg-lines-h2-bg {
+/* .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
-}
+} */    
 
 .bg-banniere {
     background-image: url("img/agence-la-panthere.jpg");
@@ -1012,6 +1021,8 @@ h4 {
     }
     form {
         padding: 5px;
+        width: 96%;
+        margin: auto;
     }
     .close-lightbox {
         display: inline-block;
